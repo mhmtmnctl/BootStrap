@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>
+      <a
+        class="btn btn-primary"
+        data-toggle="collapse"
+        href="#eleman1"
+        role="button"
+        >Göster/Gizle 1. eleman</a
+      >
+      <button
+        class="btn btn-primary"
+        type="button"
+        data-toggle="collapse"
+        data-target="#eleman2"
+      >
+        Göster/Gizle 2. eleman
+      </button>
+      <button
+        class="btn btn-primary"
+        type="button"
+        data-toggle="collapse"
+        data-target=".coklu_eleman"
+      >
+        Göster/Gizle Tüm Elemanlar
+      </button>
+    </p>
+    <div class="row">
+      <div class="col">
+        <div class="collapse coklu_eleman" id="eleman1">
+          <div class="card-body">
+            Burası 1. eleman ilk button ile gösterilip gizlenir.
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="collapse coklu_eleman" id="eleman2">
+          <div class="card-body">
+            Burası 2. eleman ilk button ile gösterilip gizlenir.
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
